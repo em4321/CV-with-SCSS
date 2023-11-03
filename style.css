@@ -1,0 +1,379 @@
+.nav, video, .follow {
+  background-color: #973350;
+  border-radius: 5px 15px 5px 15px;
+  border: 0.3rem solid #141E46;
+}
+
+.about-me:hover, .contact:hover, .work:hover, .education:hover, .key-skills:hover, .achievements:hover, .certificates:hover, .hobbies-and-interests:hover, .bee-iframe:hover {
+  box-shadow: 10px 10px 10px 10px lightblue;
+}
+
+.hobbies-and-interests, .bee-iframe, .work, .education, .key-skills {
+  margin: auto;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.work, .education, .key-skills {
+  height: 20rem;
+  width: 65rem;
+}
+
+.heading, h1, h2, .work, .education, .key-skills, #key-skills > h2, p, .back-to-cv, .contact, .nav, .follow, .overlay, .back-to-about-me, .background-photo {
+  text-align: center;
+}
+
+.work, .education, .key-skills {
+  background-color: #ffffff;
+  border-radius: 5px 15px 5px 15px;
+}
+
+.about-me, .achievements, .certificates, .contact {
+  background-color: #ffffff;
+  border-radius: 5px 15px 5px 15px;
+}
+
+.hobbies-and-interests, .bee-iframe {
+  background-color: #ffffff;
+  border-radius: 5px 15px 5px 15px;
+}
+
+img {
+  opacity: 0.7;
+}
+img:hover {
+  opacity: 1;
+  box-shadow: 10px 10px 10px 10px lightblue;
+}
+
+@font-face {
+  font-family: Poppins200;
+  src: url(./1Poppins200.woff2) format("woff2");
+  font-weight: 200;
+}
+@font-face {
+  font-family: Poppins400;
+  src: url(./1Poppins400.woff2) format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins600;
+  src: url(./1Poppins600.woff2) format("woff2");
+  font-weight: 600;
+}
+.background {
+  background-color: #FFF5E0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.about-me {
+  height: 55rem;
+  width: 115rem;
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+}
+
+#key-skills > h2, p {
+  margin-bottom: 2rem;
+}
+
+.achievements {
+  height: 35rem;
+  width: 115rem;
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+}
+
+.certificates {
+  height: 35rem;
+  width: 115rem;
+  margin-bottom: 2rem;
+  padding: 2.5rem;
+}
+
+.hobbies-and-interests {
+  width: 65rem;
+}
+
+.bee-iframe {
+  width: 65rem;
+}
+
+.video .bee-iframe {
+  margin-right: 2rem;
+  width: 500px;
+}
+
+html {
+  font-size: 62.5%;
+  color: #141E46;
+  font-family: "Poppins200", Arial, Helvetica, sans-serif;
+}
+
+.heading {
+  font-size: 3.8rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins600", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Poppins400", Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.container.back-to-about-me {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.back-to-cv > strong {
+  font-size: 3rem;
+}
+
+video, iframe {
+  border: 0.3rem solid #141E46;
+}
+
+.contact {
+  padding: 1.8rem;
+  margin: auto;
+}
+
+.nav {
+  padding: 1.2rem;
+  bottom: 30rem;
+  top: 30rem;
+  margin: auto;
+}
+.nav a > strong {
+  font-size: 3rem;
+}
+
+.follow {
+  padding: 1.2rem;
+  bottom: 30rem;
+  top: 30rem;
+  margin: auto;
+}
+.follow h2 {
+  font-size: 3rem;
+}
+.follow:hover {
+  opacity: 1;
+  box-shadow: 10px 10px 10px 10px lightblue;
+}
+.follow ul > li > a > strong {
+  font-size: 3rem;
+}
+
+.picture {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.picture:hover .overlay, .picture:focus-within .overlay {
+  transform: translateX(0);
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  opacity: 50%;
+  transform: translateY(100%);
+  transition: all 1s ease-in-out;
+}
+
+aside {
+  height: 18rem;
+  width: 36rem;
+  overflow: auto;
+}
+
+.back-to-about-me {
+  margin: auto;
+}
+.back-to-about-me h3 > a > strong {
+  font-size: 3rem;
+}
+
+button:hover {
+  color: #FF6969;
+}
+
+a[href] {
+  font-size: 2.2rem;
+  color: #141E46;
+}
+a[href]:hover {
+  color: #FF6969;
+}
+
+p, li, em, strong, del, address, .postcode, figcaption {
+  font-size: 2.2rem;
+}
+
+.background-photo > span > a::after {
+  content: "(external link)";
+}
+
+.footer {
+  background-color: #141E46;
+  height: 3rem;
+  margin-top: 2rem;
+}
+.footer P small {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 400px) {
+  .about-me, .achievements, .certificates {
+    height: 90%;
+  }
+  .contact {
+    width: 90%;
+    padding: 2.8rem;
+  }
+  .nav, .follow {
+    width: 65%;
+    padding: 4.5rem;
+    margin: 1.5rem;
+  }
+  img, .overlay {
+    width: 80%;
+    border-radius: 5px 35px 5px 35px;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-and-contact-container, .heading-nav-follow-container {
+    width: 50rem;
+  }
+}
+@media screen and (min-width: 600px) {
+  .header {
+    flex-direction: row;
+  }
+  .heading-nav-follow-container {
+    width: 80%;
+  }
+  .nav, video, .follow {
+    background-color: #d35e9b;
+  }
+  a[href]:hover, button:hover {
+    background-color: #f2b8b8;
+  }
+  .achievements, .certificates {
+    width: 80%;
+  }
+  .about-me {
+    width: 80%;
+  }
+}
+.nav, .follow {
+  width: 80%;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav, video, .follow {
+    background-color: #FF6969;
+  }
+  a[href]:hover, button:hover {
+    background-color: #973350;
+  }
+  .nav, .follow {
+    width: 82%;
+    padding: 5rem;
+    margin: 5rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .nav {
+    width: 60%;
+    padding: 10rem;
+    margin: 5rem;
+  }
+  .follow {
+    height: 30%;
+    width: 20%;
+    opacity: 0.7;
+    position: fixed;
+    right: 0.5rem;
+    padding: 2rem;
+  }
+  .about-me, .achievements, .certificates {
+    width: 45%;
+  }
+  .follow > h2 {
+    font-size: 5rem;
+  }
+  .nav a > strong {
+    font-size: 5rem;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .background {
+    background-image: url("./leone-venter-VieM9BdZKFo-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .nav, .follow, video {
+    background-color: rgba(233, 54, 188, 0.462745098);
+  }
+  .about-me, .work, .education, .key-skills, .achievements, .certificates, .hobbies-and-interests, .contact, .bee-iframe {
+    background-color: rgba(65, 60, 67, 0.462745098);
+  }
+  a[href]:hover, button:hover {
+    background-color: #076fe7;
+  }
+  .background {
+    background-color: #141E46;
+  }
+  *, .background-photo > span > a {
+    color: #ffffff;
+  }
+}/*# sourceMappingURL=style.css.map */
